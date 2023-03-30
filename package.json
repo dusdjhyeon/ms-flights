@@ -10,46 +10,45 @@
     "url": ""
   },
   "engines": {
-    "node": ">=10.0"
+    "node": ">=4.1"
   },
   "dependencies": {
     "app-module-path": "^2.1.0",
     "bluebird": "^3.7.2",
     "body-parser": "^1.19.0",
-    "config": "^3.3.0",
-    "db-migrate": "^0.11.11",
-    "db-migrate-mysql": "^2.1.1",
+    "config": "^3.3.6",
+    "db-migrate": "^0.11.12",
+    "db-migrate-mysql": "^2.1.2",
     "duration": "^0.2.2",
     "express": "^4.17.1",
-    "express-validator": "^6.14.2",
-    "glob": "^8.0.3",
+    "express-validator": "^6.10.0",
+    "glob": "^7.1.6",
     "hbs": "^4.1.0",
     "helmet": "^4.4.1",
     "kokua": "^1.3.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "maikai": "^0.8.1",
     "metalogger": "^2.2.1",
     "morgan": "^1.9.1",
     "mysql": "^2.18.1",
-    "nodebootstrap-server": "^2.0.0",
-    "promise-mysql": "^5.2.0",
+    "nodebootstrap-server": "^1.12.0",
+    "promise-mysql": "^5.0.3",
     "spieler": "^1.2.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "db-migrate": "^0.11.11",
+    "db-migrate-mysql": "^2.1.1",
     "after": "^0.8.1",
     "axios": "^0.21.1",
-    "chai": "^4.2.0",
-    "db-migrate": "^0.11.13",
-    "db-migrate-mysql": "^2.2.0",
-    "eslint": "^8.21.0",
-    "eslint-plugin-mocha": "^10.1.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.22.0",
+    "eslint-plugin-mocha": "^8.1.0",
     "fakepromise": "^1.0.6",
-    "istanbul": "^0.4.2",
-    "mocha": "^10.0.0",
+    "mocha": "^8.3.2",
     "nock": "^13.0.11",
-    "nodemon": "^2.0.19",
-    "nyc": "^15.1.0",
+    "nodemon": "^2.0.2",
+    "nyc": "^15.0.0",
     "should": "^13.2.3",
     "sinon": "^9.0.1",
     "supertest": "^6.1.3"
@@ -61,7 +60,7 @@
     "test": "nyc mocha --bail test/ test/**/*-test.js",
     "test-cov": "nyc mocha test/ test/**/*-test.js"
   },
-  "mocha": {
+  "mocha" : {
     "require": [
       "should",
       "test/support/env"
